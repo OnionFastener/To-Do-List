@@ -1,0 +1,86 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+/* Basic body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c4a484;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main container */
+.container {
+    background-color: #EADDCA;
+    padding: 20px;
+    border-radius: 2rem;
+    box-shadow: 10px 10px rgb(234, 221, 202, 40%);
+    width: 400px;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    /* Change the colour to something more appropriate */
+    color: green;
+    /* Add missing margin-bottom */
+    margin-bottom: 10px;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 75%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fffff4;
+}
+
+button {
+    padding: 10px;
+    background-color: #4FE32C;
+    color: black;
+    border: none;
+    border-radius: 10px;    
+    cursor: pointer;
+    font-style: italic;
+}
+
+/* Button hover effect */
+button:hover {
+background-color: #4BC72D;
+color: white;
+}
+
+/* Task list */
+#deleteButton {
+    color: black;
+    background-color: #FF6961;
+}
+
+#deleteButton:hover {
+    background-color: #c23b22;
+    color: white;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+}
+
+
+
